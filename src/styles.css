@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar {
+    background: #10a59f;
+}
+
+body {
+    background: #eeeeee;
+}
+
+.graph {
+    max-width: 300px;
+    max-height: 191px;
+}
+
+.content, .heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+}
