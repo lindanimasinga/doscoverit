@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 
@@ -10,6 +10,9 @@ import { InterstellarService } from './interstellar-service.service';
 @NgModule({
   declarations: [
     AppComponent
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ],
   imports: [
     BrowserModule,
